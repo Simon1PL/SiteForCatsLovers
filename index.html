@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Przyjaciele kotów</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="mainPage">
+        <form class="minMaxAgeForm">
+            <div class="form-row">
+                <label for="minAge">Wiek właściciela</label>
+                <input type="text" name="minAge" id="ownerMinAge" placeholder="minimalny">
+            </div>
+            <div class="form-row">
+                <input type="text" id="ownerMaxAge" placeholder="maxymalny">
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn">Zastosuj</button>
+            </div>
+        </form>
+
+        <ul class="user-list"></ul>
+        
+        <form class="form">
+            <div class="form-row">
+                <label for="name">Imię i nazwisko</label>
+                <input type="text" name="name" id="nameAndSurname">
+            </div>
+            <div class="form-row">
+                <label for="age">Wiek</label>
+                <input type="text" name="age" id="age">
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn">Dodaj</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="editUserPage">
+        <form class="editUserForm">
+            <div class="form-row">
+                <label for="name">Imię i nazwisko</label>
+                <input type="text" name="name" id="editName">
+            </div>
+            <div class="form-row">
+                <label for="age">Wiek</label>
+                <input type="text" name="age" id="editAge">
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn">Zapisz</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="addCatPage">
+        <form class="addCatForm">
+            <div class="form-row">
+                <label for="name">Imię kota</label>
+                <input type="text" name="name" id="catName">
+            </div>
+            <div class="form-row">
+                <label for="photo">Zdjecie</label>
+                <input type="text" name="photo" id="catPhoto">
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn">Miau!</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
