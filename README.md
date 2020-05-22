@@ -1,3 +1,3 @@
 # SiteForCatsLovers
  
-![screen](img/screen.png?raw=true)
+![screen](img/screen.png)
